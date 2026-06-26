@@ -1,0 +1,99 @@
+schema: "paperclip/v1"
+agents:
+  ceo:
+    role: "ceo"
+    adapter:
+      config:
+        dangerouslyBypassApprovalsAndSandbox: true
+        model: "gpt-5.4"
+      type: "codex_local"
+    runtime:
+      heartbeat:
+        intervalSec: 300
+    permissions:
+      canCreateAgents: true
+  cto:
+    role: "cto"
+    icon: "crown"
+    capabilities: "Owns technical strategy, staffing, delegation, and delivery execution across engineering."
+    adapter:
+      config:
+        dangerouslyBypassApprovalsAndSandbox: true
+        model: "gpt-5.4"
+      type: "codex_local"
+  fullstackengineer:
+    role: "engineer"
+    icon: "code"
+    capabilities: "Implements end-to-end engineering work across frontend, backend, API integrations, automation, and application data validation."
+    adapter:
+      config:
+        dangerouslyBypassApprovalsAndSandbox: true
+        model: "gpt-5.4"
+      type: "codex_local"
+  growthmarketing:
+    role: "cmo"
+    icon: "rocket"
+    capabilities: "Owns initial demand generation, messaging experiments, landing-page growth loops, and conversion learning for a single approved ICP and thesis."
+    adapter:
+      config:
+        dangerouslyBypassApprovalsAndSandbox: true
+        model: "gpt-5.4"
+        search: true
+      type: "codex_local"
+  opslead:
+    role: "general"
+    icon: "cog"
+    capabilities: "Owns operational flow control, blocker management, evidence discipline, and cross-functional execution handoffs."
+    adapter:
+      config:
+        dangerouslyBypassApprovalsAndSandbox: true
+        model: "gpt-5.4"
+      type: "codex_local"
+  productmanager:
+    role: "pm"
+    icon: "target"
+    capabilities: "Owns market discovery, ICP definition, opportunity prioritization, and PRD-ready product framing for new revenue opportunities."
+    adapter:
+      config:
+        dangerouslyBypassApprovalsAndSandbox: true
+        model: "gpt-5.4"
+        search: true
+      type: "codex_local"
+  qasecurityreviewer:
+    role: "qa"
+    icon: "shield"
+    capabilities: "Owns validation of user-facing flows, integrations, permissions, and evidence quality before work can be marked done."
+    adapter:
+      config:
+        dangerouslyBypassApprovalsAndSandbox: true
+        model: "gpt-5.4"
+      type: "codex_local"
+  revenueops:
+    role: "general"
+    icon: "target"
+    capabilities: "Owns target-account buildout, manual outreach execution, response logging, and commercial evidence capture."
+    adapter:
+      config:
+        dangerouslyBypassApprovalsAndSandbox: true
+        model: "gpt-5.4"
+      type: "codex_local"
+company:
+  attachmentMaxBytes: 10485760
+projects:
+  onboarding:
+    status: "in_progress"
+  select-ops-diagnostico:
+    status: "planned"
+sidebar:
+  agents:
+    - "ceo"
+    - "cto"
+    - "growthmarketing"
+    - "opslead"
+    - "productmanager"
+    - "fullstackengineer"
+    - "qasecurityreviewer"
+    - "revenueops"
+  projects:
+    - "onboarding"
+    - "select-ops-diagnostico"
