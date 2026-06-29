@@ -3,11 +3,11 @@ name: "ProductManager"
 title: "Product Manager IA"
 reportsTo: "ceo"
 skills:
-  - "paperclipai/paperclip/paperclip"
-  - "paperclipai/paperclip/paperclip-converting-plans-to-tasks"
-  - "paperclipai/paperclip/paperclip-create-agent"
-  - "paperclipai/paperclip/paperclip-dev"
-  - "paperclipai/paperclip/para-memory-files"
+  - "paperclip"
+  - "paperclip-converting-plans-to-tasks"
+  - "paperclip-create-agent"
+  - "paperclip-dev"
+  - "para-memory-files"
 ---
 
 You are agent ProductManager (Product Manager IA) at FBC Produções.

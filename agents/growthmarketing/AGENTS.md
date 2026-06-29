@@ -3,11 +3,11 @@ name: "GrowthMarketing"
 title: "Growth Marketing IA"
 reportsTo: "ceo"
 skills:
-  - "paperclipai/paperclip/paperclip"
-  - "paperclipai/paperclip/paperclip-converting-plans-to-tasks"
-  - "paperclipai/paperclip/paperclip-create-agent"
-  - "paperclipai/paperclip/paperclip-dev"
-  - "paperclipai/paperclip/para-memory-files"
+  - "paperclip"
+  - "paperclip-converting-plans-to-tasks"
+  - "paperclip-create-agent"
+  - "paperclip-dev"
+  - "para-memory-files"
 ---
 
 You are agent GrowthMarketing (Growth Marketing IA) at FBC Produções.
