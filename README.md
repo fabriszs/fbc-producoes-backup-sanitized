@@ -37,11 +37,11 @@ A nova frente paralela parte de uma premissa estratégica: já existe acesso a f
 
 | Skill | Description | Source |
 |-------|-------------|--------|
-| paperclip-converting-plans-to-tasks | > | [github](https://github.com/paperclipai/paperclip/tree/master/skills/paperclip-converting-plans-to-tasks) |
-| paperclip-create-agent | > | [github](https://github.com/paperclipai/paperclip/tree/master/skills/paperclip-create-agent) |
-| paperclip-dev | > | [github](https://github.com/paperclipai/paperclip/tree/master/skills/paperclip-dev) |
-| paperclip | > | [github](https://github.com/paperclipai/paperclip/tree/master/skills/paperclip) |
-| para-memory-files | > | [github](https://github.com/paperclipai/paperclip/tree/master/skills/para-memory-files) |
+| paperclip-converting-plans-to-tasks | > | [github](https://github.com/paperclipai/paperclip/tree/e6407b322552b5c0aef3dd19835bb00627570b7d/skills/paperclip-converting-plans-to-tasks) |
+| paperclip-create-agent | > | [github](https://github.com/paperclipai/paperclip/tree/e6407b322552b5c0aef3dd19835bb00627570b7d/skills/paperclip-create-agent) |
+| paperclip-dev | > | [github](https://github.com/paperclipai/paperclip/tree/e6407b322552b5c0aef3dd19835bb00627570b7d/skills/paperclip-dev) |
+| paperclip | > | [github](https://github.com/paperclipai/paperclip/tree/e6407b322552b5c0aef3dd19835bb00627570b7d/skills/paperclip) |
+| para-memory-files | > | [github](https://github.com/paperclipai/paperclip/tree/e6407b322552b5c0aef3dd19835bb00627570b7d/skills/para-memory-files) |
 
 ## Getting Started
 
